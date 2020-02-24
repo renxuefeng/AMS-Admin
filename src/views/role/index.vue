@@ -252,7 +252,7 @@ export default {
         }
       })
     },
-        handleCurrentChange(val) {
+    handleCurrentChange(val) {
       this.listQuery.startPage = val
       this.getList()
     }
